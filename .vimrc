@@ -197,27 +197,27 @@ call plug#end()
 	autocmd FileType html inoremap ,dt <dt></dt><Enter><dd><++></dd><Enter><++><esc>2kcit
 	autocmd FileType html inoremap ,dl <dl><Enter><Enter></dl><enter><enter><++><esc>3kcc
 	autocmd FileType html inoremap &<space> &amp;<space>
-	autocmd FileType html inoremap á &aacute;
-	autocmd FileType html inoremap é &eacute;
-	autocmd FileType html inoremap í &iacute;
-	autocmd FileType html inoremap ó &oacute;
-	autocmd FileType html inoremap ú &uacute;
-	autocmd FileType html inoremap ä &auml;
-	autocmd FileType html inoremap ë &euml;
-	autocmd FileType html inoremap ï &iuml;
-	autocmd FileType html inoremap ö &ouml;
-	autocmd FileType html inoremap ü &uuml;
-	autocmd FileType html inoremap ã &atilde;
-	autocmd FileType html inoremap ẽ &etilde;
-	autocmd FileType html inoremap ĩ &itilde;
-	autocmd FileType html inoremap õ &otilde;
-	autocmd FileType html inoremap ũ &utilde;
-	autocmd FileType html inoremap ñ &ntilde;
-	autocmd FileType html inoremap à &agrave;
-	autocmd FileType html inoremap è &egrave;
-	autocmd FileType html inoremap ì &igrave;
-	autocmd FileType html inoremap ò &ograve;
-	autocmd FileType html inoremap ù &ugrave;
+	autocmd FileType html inoremap Ã¡ &aacute;
+	autocmd FileType html inoremap Ã© &eacute;
+	autocmd FileType html inoremap Ã­ &iacute;
+	autocmd FileType html inoremap Ã³ &oacute;
+	autocmd FileType html inoremap Ãº &uacute;
+	autocmd FileType html inoremap Ã¤ &auml;
+	autocmd FileType html inoremap Ã« &euml;
+	autocmd FileType html inoremap Ã¯ &iuml;
+	autocmd FileType html inoremap Ã¶ &ouml;
+	autocmd FileType html inoremap Ã¼ &uuml;
+	autocmd FileType html inoremap Ã£ &atilde;
+	autocmd FileType html inoremap áº½ &etilde;
+	autocmd FileType html inoremap Ä© &itilde;
+	autocmd FileType html inoremap Ãµ &otilde;
+	autocmd FileType html inoremap Å© &utilde;
+	autocmd FileType html inoremap Ã± &ntilde;
+	autocmd FileType html inoremap Ã  &agrave;
+	autocmd FileType html inoremap Ã¨ &egrave;
+	autocmd FileType html inoremap Ã¬ &igrave;
+	autocmd FileType html inoremap Ã² &ograve;
+	autocmd FileType html inoremap Ã¹ &ugrave;
 
 
 """.bib
@@ -255,4 +255,3 @@ vnoremap L >gv
 vnoremap H <gv
 
 map <enter><enter> yi[:e <c-r>"<cr>
-
