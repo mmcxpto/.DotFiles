@@ -14,8 +14,5 @@ if [ "$(tty)" = "/dev/tty1" ]; then
 	pgrep -x i3 || exec startx
 fi
 
-setxkbmap br
-
-# troca esc com capslock e usa as cores do 'wal'
-sudo -n loadkeys ~/.resources/ttymaps.kmap 2>/dev/null
+# usa as cores do 'wal'
 tty | grep tty >/dev/null && wal -i ~/.config/wall.png
