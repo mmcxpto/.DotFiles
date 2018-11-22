@@ -11,7 +11,7 @@ HISTSIZE= HISTFILESIZE= # Infinite history.  /  historico infinito
 export GPG_TTY=$(tty)
 
 
-# System Maintainence / manutenÃ§Ã£o do sistema
+# System Maintainence / manutenÃƒÂ§ÃƒÂ£o do sistema
 alias sdn="sudo shutdown now"
 alias psref="gpg-connect-agent RELOADAGENT /bye" # Refresh gpg
 
@@ -26,6 +26,7 @@ alias sr="sudo ranger"
 alias ka="killall"
 alias g="git"
 alias mkd="mkdir -pv"
+alias xf="xflux -l -23.974154 -g -46.386885" # troque de acordo com sua geolocation
 
 # Adding color / inserindo cores
 alias ls='ls -hN --color=auto --group-directories-first'
