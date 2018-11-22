@@ -18,7 +18,8 @@ call plug#end()
 	syntax	on
 	filetype plugin indent on
 " Some basics:
-	set nocompatible
+	"set nocompatible
+	set showcmd
 	filetype plugin on
 	syntax on
 	set encoding=utf-8
@@ -197,27 +198,27 @@ call plug#end()
 	autocmd FileType html inoremap ,dt <dt></dt><Enter><dd><++></dd><Enter><++><esc>2kcit
 	autocmd FileType html inoremap ,dl <dl><Enter><Enter></dl><enter><enter><++><esc>3kcc
 	autocmd FileType html inoremap &<space> &amp;<space>
-	autocmd FileType html inoremap Ã¡ &aacute;
-	autocmd FileType html inoremap Ã© &eacute;
-	autocmd FileType html inoremap Ã­ &iacute;
-	autocmd FileType html inoremap Ã³ &oacute;
-	autocmd FileType html inoremap Ãº &uacute;
-	autocmd FileType html inoremap Ã¤ &auml;
-	autocmd FileType html inoremap Ã« &euml;
-	autocmd FileType html inoremap Ã¯ &iuml;
-	autocmd FileType html inoremap Ã¶ &ouml;
-	autocmd FileType html inoremap Ã¼ &uuml;
-	autocmd FileType html inoremap Ã£ &atilde;
-	autocmd FileType html inoremap áº½ &etilde;
-	autocmd FileType html inoremap Ä© &itilde;
-	autocmd FileType html inoremap Ãµ &otilde;
-	autocmd FileType html inoremap Å© &utilde;
-	autocmd FileType html inoremap Ã± &ntilde;
-	autocmd FileType html inoremap Ã  &agrave;
-	autocmd FileType html inoremap Ã¨ &egrave;
-	autocmd FileType html inoremap Ã¬ &igrave;
-	autocmd FileType html inoremap Ã² &ograve;
-	autocmd FileType html inoremap Ã¹ &ugrave;
+	autocmd FileType html inoremap ÃƒÂ¡ &aacute;
+	autocmd FileType html inoremap ÃƒÂ© &eacute;
+	autocmd FileType html inoremap ÃƒÂ­ &iacute;
+	autocmd FileType html inoremap ÃƒÂ³ &oacute;
+	autocmd FileType html inoremap ÃƒÂº &uacute;
+	autocmd FileType html inoremap ÃƒÂ¤ &auml;
+	autocmd FileType html inoremap ÃƒÂ« &euml;
+	autocmd FileType html inoremap ÃƒÂ¯ &iuml;
+	autocmd FileType html inoremap ÃƒÂ¶ &ouml;
+	autocmd FileType html inoremap ÃƒÂ¼ &uuml;
+	autocmd FileType html inoremap ÃƒÂ£ &atilde;
+	autocmd FileType html inoremap Ã¡ÂºÂ½ &etilde;
+	autocmd FileType html inoremap Ã„Â© &itilde;
+	autocmd FileType html inoremap ÃƒÂµ &otilde;
+	autocmd FileType html inoremap Ã…Â© &utilde;
+	autocmd FileType html inoremap ÃƒÂ± &ntilde;
+	autocmd FileType html inoremap Ãƒ  &agrave;
+	autocmd FileType html inoremap ÃƒÂ¨ &egrave;
+	autocmd FileType html inoremap ÃƒÂ¬ &igrave;
+	autocmd FileType html inoremap ÃƒÂ² &ograve;
+	autocmd FileType html inoremap ÃƒÂ¹ &ugrave;
 
 
 """.bib
