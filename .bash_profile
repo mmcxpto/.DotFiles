@@ -2,6 +2,7 @@
 
 # Profile file. Runs on login.
 
+export PATH="$(du $HOME/.resources/ | cut -f2 | tr '\n' ':')$PATH"
 export EDITOR="vim"
 export TERMINAL="st"
 export READER="okular"
@@ -16,3 +17,6 @@ fi
 
 # usa as cores do 'wal'
 tty | grep tty >/dev/null && wal -i ~/.config/wall.png
+
+# troca escape e caps se for tty
+sudo -n loadkeys ~/.scripts/ttymaps.kmap 2>/dev/null
