@@ -2,7 +2,7 @@
 
 set $mod Mod4
 
-font noto-fonts:monospace 8
+font ttf-inconsolata:monospace 8
 
 floating_modifier $mod
 
@@ -142,6 +142,7 @@ for_window [instance="tmuxdd"] border pixel 2
 for_window [instance="tmuxdd"] sticky enable
 
 bar {
+	font pango:xos4 Terminus 10px
         status_command i3blocks -c /home/mmoura/.config/i3/i3blocks/i3blocks.conf
 	position top
 }
