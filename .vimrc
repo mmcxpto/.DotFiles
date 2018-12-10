@@ -8,23 +8,40 @@ let mapleader =" "
 
 " ~/.vim/plugged
 call plug#begin()
-Plug 'PotatoesMaster/i3-vim-syntax'
-Plug 'dylanaraps/wal.vim'
-Plug 'flazz/vim-colorschemes'
+	Plug 'sheerun/vim-polyglot'
+	Plug 'dylanaraps/wal.vim'
+	Plug 'flazz/vim-colorschemes'
+	Plug 'scrooloose/nerdtree'
+	Plug 'mattn/emmet-vim'
+	Plug 'ying17zi/vim-live-latex-preview'
 call plug#end()
+
+" Some basics:
+"	colorscheme Tomorrow-Night-Eighties
+"	set nocompatible
+	set showcmd
+	filetype plugin on
+	syntax on
+	set fileencoding=utf-8
+	set encoding=utf-8
+	set number
+	set relativenumber
+	set tabstop=2
+	set shiftwidth=2
+	set incsearch
+	set hlsearch
+"	set fileencoding=iso-8859-1
+"	set encoding=iso-8859-1
+" set expandtab				-  trocar
+" set softtabstop     -  tab por espaÃƒo
 
 " latex lines
 	execute	pathogen#infect()
 	syntax	on
 	filetype plugin indent on
-" Some basics:
-	"set nocompatible
-	set showcmd
-	filetype plugin on
-	syntax on
-	set encoding=utf-8
-	set number
-	set relativenumber
+
+" emmet lines
+	let g:user_emmet_leader_key=','
 
 " Splits open at the bottom and right, which is non-retarded, unlike vim defaults.
 	set splitbelow
@@ -84,6 +101,7 @@ call plug#end()
 
 " Spell-check set to F6:
 	map <F6> :setlocal spell! spelllang=en_us<CR>
+"	map <F6> :setlocal spell! spelllang=pt_BR<CR>
 
 " Use urlview to choose and open a url:
 	:noremap <leader>u :w<Home>silent <End> !urlscan<CR>
