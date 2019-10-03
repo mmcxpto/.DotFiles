@@ -1,1 +1,7 @@
-exec i3
+setxkbmap br
+
+slstatus &
+
+~/.resources/bin/fehbg &
+
+exec dwm
