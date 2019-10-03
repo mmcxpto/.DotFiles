@@ -6,7 +6,7 @@ export PATH="$(du $HOME/.resources/ | cut -f2 | tr '\n' ':')$PATH"
 export EDITOR="vim"
 export TERMINAL="st"
 export READER="okular"
-export BROWSER="firefox-developer-edition"
+export BROWSER="chromium"
 
 [ -f ~/.bashrc ] && source ~/.bashrc
 
