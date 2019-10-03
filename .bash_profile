@@ -12,7 +12,7 @@ export BROWSER="firefox-developer-edition"
 
 # se o tty for 1 inicia o server grafico
 if [ "$(tty)" = "/dev/tty1" ]; then
-	pgrep -x i3 || exec startx
+	pgrep -x dwm || exec startx
 fi
 
 # usa as cores do 'wal'
