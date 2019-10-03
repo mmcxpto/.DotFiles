@@ -10,6 +10,7 @@ HISTSIZE= HISTFILESIZE= # Infinite history.  /  historico infinito
 
 export GPG_TTY=$(tty)
 
+PS1='\$ '
 
 # System Maintainence / manutenÃƒÂ§ÃƒÂ£o do sistema
 alias sdn="sudo shutdown now"
